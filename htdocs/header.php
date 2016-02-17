@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html class="<?=$pageName?>">
 <head>
-	<title>The Album Club - <?=ucfirst($pageName)?></title>
+	<title>The Album Club | <?=ucfirst($pageName)?></title>
+	<meta name="description" content="<?=$pageDescription?>">
+	<meta name="keywords" content="<?=$pageKeywords?>">
+	<meta name="author" content="The Album Club">
+	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="assets/default.css">
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="favicon.ico" />
