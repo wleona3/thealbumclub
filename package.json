@@ -1,0 +1,19 @@
+{
+  "name": "thealbumclub.ca",
+  "version": "1.0.0",
+  "description": "Website for The Album Club",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@billiam.net/thealbumclub.ca.git"
+  },
+  "author": "The Album Club",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.1"
+  }
+}
