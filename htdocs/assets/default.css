@@ -58,7 +58,12 @@ a:hover {
 	color: #004cd3;	
 }	
 
-#sidebar ul li.current a {
+#sidebar ul li h1 {
+	font-size: inherit;
+	margin: auto;
+}
+
+#sidebar ul li h1 a {
 	color: #6880E8;
 }
 
