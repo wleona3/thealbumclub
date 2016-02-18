@@ -144,10 +144,8 @@ a:hover {
 		display: none;
 	}
 	body {
-	    background-image: url("background.gif");
-	    background-attachment: fixed;
-	    background-size: auto 100%;
-	    background-position: 30%;	
+	    background: #000 url(background.gif) no-repeat 37% center fixed;
+	    background-size: cover;
 	}
 	#content { 
 		padding: 20px;
