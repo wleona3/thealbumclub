@@ -93,7 +93,7 @@ a:hover {
 }
 
 #content {
-	width: 645px;
+	max-width: 645px;
 	float: right;
     color: white;
     font-size: 1.1em;    
@@ -111,6 +111,9 @@ a:hover {
 	background-color: black;	
 	padding: 3px;
 	bottom: 0;
+}
+#mobile_social_links {
+	display: none;
 }
 
 .bit-rsvp {
@@ -146,8 +149,16 @@ a:hover {
 	    background-size: auto 100%;
 	    background-position: 30%;	
 	}
+	#content { 
+		padding: 20px;
+	}
 	#footer {
 		width: auto;
+	}
+
+	#mobile_social_links {
+		display: block;
+		margin-bottom: 4px;
 	}
 
 }
