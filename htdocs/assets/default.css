@@ -128,22 +128,26 @@ a:hover {
 		padding-right: 0px;
 	}
 	#sidebar ul {
-		text-align: left;
+		text-align: center;
 		margin-top: 0px;
 	}
 
 	#sidebar li {
-		display: inline;
+		display: inline-block;
+		margin: 3%;
 	}
 
 	#sidebar ul li.external {
-		display: block;
+		display: none;
 	}
 	body {
 	    background-image: url("background.gif");
 	    background-attachment: fixed;
 	    background-size: auto 100%;
 	    background-position: 30%;	
+	}
+	#footer {
+		width: auto;
 	}
 
 }
