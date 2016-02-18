@@ -20,12 +20,15 @@ a:hover {
     text-decoration: underline;
 }
 #wrapper {
-    width: 975px;
+    max-width: 975px;
     margin-left: auto;
     margin-right: auto;
 }
 #body {
 	overflow: hidden;
+}
+#header .header-logo img {
+	width: 100%;
 }
 #sidebar {	
 	font-size: 3.5em;
@@ -112,4 +115,35 @@ a:hover {
 
 .bit-rsvp {
 	color: #0055ff !important;
+}
+
+.mobile-album-cover {
+	width: 100%;
+}
+
+@media (max-width: 1005px) {
+	#sidebar {
+		font-size: 1em;
+		width: 100%;
+		padding-right: 0px;
+	}
+	#sidebar ul {
+		text-align: left;
+		margin-top: 0px;
+	}
+
+	#sidebar li {
+		display: inline;
+	}
+
+	#sidebar ul li.external {
+		display: block;
+	}
+	body {
+	    background-image: url("background.gif");
+	    background-attachment: fixed;
+	    background-size: auto 100%;
+	    background-position: 30%;	
+	}
+
 }

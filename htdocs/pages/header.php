@@ -6,6 +6,7 @@
 	<meta name="keywords" content="<?=$pageKeywords?>">
 	<meta name="author" content="The Album Club">
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="assets/default.css">
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="favicon.ico" />
@@ -20,6 +21,6 @@
 <body>
 <div id="wrapper">
 	<div id="header">
-		<a href="/" title="The Album Club"><img alt="The Album Club" src="assets/header.png"></a>
+		<a href="/" title="The Album Club" class="header-logo"><img alt="The Album Club" src="assets/header.png"></a>
 	</div>
 	<div id="body">
