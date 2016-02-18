@@ -100,8 +100,9 @@ a:hover {
 #content {
 	max-width: 645px;
 	float: right;
-    color: white;
-    font-size: 1.1em;    
+	color: white;
+	font-size: 1.1em;    
+	width: 92.8%;
 }
 
 #content p {
