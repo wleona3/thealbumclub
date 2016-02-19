@@ -1,2 +1,3 @@
 htdocs/assets/*.css
+htdocs/apc.php
 node_modules
