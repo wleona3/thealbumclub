@@ -1,5 +1,5 @@
 body {
-    background-color: #000000;
+    background-color: #000;
     background-image: url("background.gif");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -36,7 +36,7 @@ a:hover {
 	font-weight: bold;
 	float: left;
 	width: 300px;
-	padding-right: 30px;
+	padding-right: 20px;
 	vertical-align: text-top;
 	
     text-shadow:
@@ -98,7 +98,7 @@ a:hover {
 }
 
 #content {
-	max-width: 645px;
+	max-width: 635px;
 	float: right;
 	color: white;
 	font-size: 1.1em;    
@@ -132,7 +132,7 @@ a:hover {
 
 @media (max-width: 1005px) {
 	#sidebar {
-		font-size: 1em;
+		font-size: 2.2em;
 		width: 100%;
 		padding-right: 0px;
 	}
@@ -154,6 +154,8 @@ a:hover {
 	    background-size: cover;
 	}
 	#content { 
+		margin: auto;
+		float: none;
 		padding: 20px;
 	}
 	#footer {
@@ -175,3 +177,9 @@ a:hover {
 	}
 
 }
+
+@media (max-width: 360px) {
+	@sidebar {
+		font-size: 1em;
+	}
+} 

@@ -1,4 +1,6 @@
 <?php
+chdir('..');
+
 require_once 'seo.php';
 $pageName = isset($_GET['name']) ? $_GET['name'] : 'music';
 $pageDescription = isset($SEO[$pageName]) ? htmlspecialchars($SEO[$pageName]['description']) : '';
