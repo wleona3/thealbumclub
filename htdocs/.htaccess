@@ -1,3 +1,5 @@
+AddType image/x-icon .ico
+
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
@@ -15,4 +17,8 @@ RewriteRule (.*) index.php?name=$1 [QSA]
     ExpiresByType image/jpeg "access plus 1 month"
     ExpiresByType image/gif "access plus 1 month"
     ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/x-icon "access plus 1 month"
 </IfModule>
+
+SetEnvIfNoCase User-Agent "^libwww-perl*" block_bad_bots
+Deny from env=block_bad_bots
