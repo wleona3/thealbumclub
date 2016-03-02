@@ -29,6 +29,6 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 <div id="wrapper">
 	<div id="header">
-		<a href="/" title="The Album Club" class="header-logo"><img alt="The Album Club" src="assets/header.png"></a>
+		<a href="/" title="The Album Club" alt="Toronto band The Album Club's banner" class="header-logo"><img alt="The Album Club" src="assets/header.png"></a>
 	</div>
 	<div id="body">

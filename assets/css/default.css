@@ -103,6 +103,11 @@ a:hover {
 	color: white;
 	font-size: 1.1em;    
 	width: 92.8%;
+	background: RGBA(0,0,0,0.7);
+}
+
+#content.no-background {
+	background: none;
 }
 
 #content p {
@@ -127,6 +132,10 @@ a:hover {
 }
 
 .mobile-album-cover {
+	width: 100%;
+}
+
+.section-image {
 	width: 100%;
 }
 
