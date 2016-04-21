@@ -6,7 +6,7 @@
 <?php foreach ($pages as $menuPage) : ?>		
 		<li <?php if ($menuPage == $pageName) echo 'class="current"'?>>
 	<?php if ($menuPage == $pageName) echo '<h1>'?>
-			<a href="<?=$menuPage?>"><?=ucfirst($menuPage)?></a>
+			<a href="<?=url($menuPage)?>"><?=ucfirst($menuPage)?></a>
 	<?php if ($menuPage == $pageName) echo '</h1>'?>	
 		</li>				
 <?php endforeach ?>
