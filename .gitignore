@@ -1,3 +1,5 @@
 htdocs/assets/*.css
 htdocs/apc.php
 node_modules
+config.php
+.idea
